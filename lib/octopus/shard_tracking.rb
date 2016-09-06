@@ -24,6 +24,7 @@ module Octopus
 
         alias_method without.to_sym, name.to_sym
         alias_method name.to_sym, with.to_sym
+
       end
     end
 
